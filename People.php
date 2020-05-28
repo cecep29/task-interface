@@ -41,7 +41,7 @@ class FactoryWorker implements Worker
     }
 }
 
-class CollegeStudent 
+class CollegeStudent implements Student
 {
     public function doSomething()
     {
@@ -59,7 +59,7 @@ class CollegeStudent
     }
 }
 
-class HighSchoolStudent 
+class HighSchoolStudent implements Student
 {
     public function doSomething()
     {
